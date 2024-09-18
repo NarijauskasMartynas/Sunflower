@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>AccentColor</string>
+		<key>UIImageName</key>
+		<string>testImg</string>
+		<key>UILaunchScreen</key>
+		<dict/>
+	</dict>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>fb534597425732120</string>
+      </array>
+      </dict>
+    </array>
+    <key>FacebookAppID</key>
+    <string>534597425732120</string>
+    <key>FacebookDisplayName</key>
+    <string>Sunflower</string>
+    <key>FacebookClientToken</key>
+    <string>aae834f4f0403ef627fbe8e0767026b8</string>
+    <key>FacebookAutoLogAppEventsEnabled</key>
+    <string>TRUE</string>
+    <key>FacebookAdvertiserIDCollectionEnabled</key>
+    <string>TRUE</string>
+</dict>
+</plist>

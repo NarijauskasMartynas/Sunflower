@@ -1,0 +1,1318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		940FA0E02C83312600C0C8D5 /* WatchToAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FA0DF2C83312600C0C8D5 /* WatchToAppManager.swift */; };
+		940FA1282C835FC500C0C8D5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940FA0FA2C8352B000C0C8D5 /* WidgetKit.framework */; };
+		940FA1292C835FC500C0C8D5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940FA0FC2C8352B000C0C8D5 /* SwiftUI.framework */; };
+		940FA12C2C835FC500C0C8D5 /* Complications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FA12B2C835FC500C0C8D5 /* Complications.swift */; };
+		940FA12E2C835FC600C0C8D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940FA12D2C835FC600C0C8D5 /* Assets.xcassets */; };
+		940FA1322C835FC600C0C8D5 /* ComplicationsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 940FA1272C835FC500C0C8D5 /* ComplicationsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		940FA1372C8360D800C0C8D5 /* WatchDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FA1362C8360D800C0C8D5 /* WatchDefaultKeys.swift */; };
+		940FA1382C8360D800C0C8D5 /* WatchDefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FA1362C8360D800C0C8D5 /* WatchDefaultKeys.swift */; };
+		940FA1392C83622400C0C8D5 /* Double+Hours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7EF2C653F80007AABD9 /* Double+Hours.swift */; };
+		94107ADE2C6BAC1B007C6FF3 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94107ADD2C6BAC1B007C6FF3 /* Loader.swift */; };
+		94107AE02C6BBAE2007C6FF3 /* SunGoalPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94107ADF2C6BBAE2007C6FF3 /* SunGoalPicker.swift */; };
+		941A90B32C84EDA800C521D2 /* ProType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941A90B22C84EDA800C521D2 /* ProType.swift */; };
+		941A90B42C84EDA800C521D2 /* ProType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941A90B22C84EDA800C521D2 /* ProType.swift */; };
+		941A90B52C84EDA800C521D2 /* ProType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941A90B22C84EDA800C521D2 /* ProType.swift */; };
+		9424D1772C88C0E90051DC3B /* LoadingAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 9424D1762C88C0E90051DC3B /* LoadingAnimation.json */; };
+		9426E7D82C651592007AABD9 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7D72C651592007AABD9 /* App.swift */; };
+		9426E7DA2C651592007AABD9 /* SunflowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7D92C651592007AABD9 /* SunflowerView.swift */; };
+		9426E7DC2C651594007AABD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9426E7DB2C651594007AABD9 /* Assets.xcassets */; };
+		9426E7DF2C651594007AABD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9426E7DE2C651594007AABD9 /* Preview Assets.xcassets */; };
+		9426E7E72C65160F007AABD9 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 9426E7E62C65160F007AABD9 /* Lottie */; };
+		9426E7EC2C6530DD007AABD9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7EB2C6530DD007AABD9 /* Colors.swift */; };
+		9426E7EE2C6537A6007AABD9 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7ED2C6537A6007AABD9 /* TabView.swift */; };
+		9426E7F02C653F80007AABD9 /* Double+Hours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7EF2C653F80007AABD9 /* Double+Hours.swift */; };
+		9426E7F22C654162007AABD9 /* Double+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7F12C654162007AABD9 /* Double+Formatting.swift */; };
+		9426E7F72C65490C007AABD9 /* HealthStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7F62C65490C007AABD9 /* HealthStoreManager.swift */; };
+		9426E7F92C654A39007AABD9 /* SunWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7F82C654A39007AABD9 /* SunWorker.swift */; };
+		9426E7FC2C654AFE007AABD9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7FB2C654AFE007AABD9 /* Date.swift */; };
+		9426E8002C6553E7007AABD9 /* SunProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7FF2C6553E7007AABD9 /* SunProgressView.swift */; };
+		9426E8022C655D5A007AABD9 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E8012C655D5A007AABD9 /* CalendarView.swift */; };
+		9426E8042C6604FD007AABD9 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E8032C6604FD007AABD9 /* UserInfo.swift */; };
+		944387F72C8B3B670004A82D /* SunflowerMain.json in Resources */ = {isa = PBXBuildFile; fileRef = 944387F62C8B3B670004A82D /* SunflowerMain.json */; };
+		944387FB2C8B525C0004A82D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944387FA2C8B525C0004A82D /* Launch Screen.storyboard */; };
+		946B748F2C9B19E400632CFC /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 946B748E2C9B19E400632CFC /* FacebookCore */; };
+		94789F052C67E72F00461918 /* DayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94789F042C67E72F00461918 /* DayData.swift */; };
+		94789F082C67E98400461918 /* FetchTodayDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94789F072C67E98400461918 /* FetchTodayDataWrapper.swift */; };
+		94789F0A2C67ECB000461918 /* confetiAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 94789F092C67ECB000461918 /* confetiAnimation.json */; };
+		94789F112C68D85B00461918 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94789F102C68D85B00461918 /* PrimaryButtonStyle.swift */; };
+		94789F132C68DA6D00461918 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94789F122C68DA6D00461918 /* Modal.swift */; };
+		94789F152C68DB1600461918 /* StreakModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94789F142C68DB1600461918 /* StreakModal.swift */; };
+		94789F1B2C68DD2B00461918 /* fireBurning.json in Resources */ = {isa = PBXBuildFile; fileRef = 94789F1A2C68DD2B00461918 /* fireBurning.json */; };
+		94789F1D2C68ED7900461918 /* BackgroundNotificationsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94789F1C2C68ED7900461918 /* BackgroundNotificationsWorker.swift */; };
+		94789F1F2C69151B00461918 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94789F1E2C69151B00461918 /* SettingsView.swift */; };
+		94789F212C69323C00461918 /* SunflowersField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94789F202C69323C00461918 /* SunflowersField.swift */; };
+		94917EDE2C661B9800C057BF /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94917EDD2C661B9800C057BF /* DayView.swift */; };
+		94C1C0CF2C6E50CE00FBA785 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 94C1C0CE2C6E50CE00FBA785 /* RevenueCat */; };
+		94C1C0D12C6E50CE00FBA785 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 94C1C0D02C6E50CE00FBA785 /* RevenueCatUI */; };
+		94C1C0D32C6E510B00FBA785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C1C0D22C6E510B00FBA785 /* AppDelegate.swift */; };
+		94C1C0D52C6E513700FBA785 /* SubscriptionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C1C0D42C6E513700FBA785 /* SubscriptionsManager.swift */; };
+		94C1C0D72C6E539900FBA785 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C1C0D62C6E539900FBA785 /* SubscriptionView.swift */; };
+		94C7BF462C6A657700B3952D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7BF452C6A657700B3952D /* SwiftUIView.swift */; };
+		94CFF69B2C80B7BB00D8C2F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94CFF69A2C80B7BB00D8C2F7 /* GoogleService-Info.plist */; };
+		94CFF69E2C80B81400D8C2F7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 94CFF69D2C80B81400D8C2F7 /* FirebaseAnalytics */; };
+		94CFF6A02C80B81400D8C2F7 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 94CFF69F2C80B81400D8C2F7 /* FirebaseCrashlytics */; };
+		94CFF6A22C80B81400D8C2F7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 94CFF6A12C80B81400D8C2F7 /* FirebaseFirestore */; };
+		94CFF6A52C80BDA200D8C2F7 /* FeedbackSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CFF6A42C80BDA200D8C2F7 /* FeedbackSheet.swift */; };
+		94CFF6A72C80BDF900D8C2F7 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CFF6A62C80BDF900D8C2F7 /* Logger.swift */; };
+		94CFF6A92C80C37A00D8C2F7 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CFF6A82C80C37A00D8C2F7 /* WebView.swift */; };
+		94CFF6AB2C80C76700D8C2F7 /* RateAppSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CFF6AA2C80C76700D8C2F7 /* RateAppSheet.swift */; };
+		94CFF6B32C80E5EB00D8C2F7 /* watchkitappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CFF6B22C80E5EB00D8C2F7 /* watchkitappApp.swift */; };
+		94CFF6B52C80E5EB00D8C2F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CFF6B42C80E5EB00D8C2F7 /* ContentView.swift */; };
+		94CFF6B72C80E5EC00D8C2F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94CFF6B62C80E5EC00D8C2F7 /* Assets.xcassets */; };
+		94CFF6BA2C80E5EC00D8C2F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94CFF6B92C80E5EC00D8C2F7 /* Preview Assets.xcassets */; };
+		94CFF6BD2C80E5EC00D8C2F7 /* Sunflower.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 94CFF6B02C80E5EB00D8C2F7 /* Sunflower.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		94CFF6C32C80E94100D8C2F7 /* WatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CFF6C22C80E94100D8C2F7 /* WatchManager.swift */; };
+		94CFF6C52C80EB0200D8C2F7 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7FB2C654AFE007AABD9 /* Date.swift */; };
+		94CFF6C72C80EDE200D8C2F7 /* SleepWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CFF6C62C80EDE200D8C2F7 /* SleepWorker.swift */; };
+		94CFF6C82C80EDF800D8C2F7 /* SunWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7F82C654A39007AABD9 /* SunWorker.swift */; };
+		94CFF6C92C80EE0E00D8C2F7 /* HealthStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7F62C65490C007AABD9 /* HealthStoreManager.swift */; };
+		94CFF6CC2C80EF4100D8C2F7 /* Double+Hours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7EF2C653F80007AABD9 /* Double+Hours.swift */; };
+		94D6BEAB2C6FB0BD0068DD85 /* StoreKit.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 94D6BEAA2C6FB0B90068DD85 /* StoreKit.storekit */; };
+		94E4A4A12C836CCD00261AD9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7EB2C6530DD007AABD9 /* Colors.swift */; };
+		94E4A4A22C836CCD00261AD9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7EB2C6530DD007AABD9 /* Colors.swift */; };
+		94E4A4A42C8370A500261AD9 /* WatchBackgroundNotificationsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E4A4A32C8370A500261AD9 /* WatchBackgroundNotificationsWorker.swift */; };
+		94E4A4C32C84601A00261AD9 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940FA0FA2C8352B000C0C8D5 /* WidgetKit.framework */; };
+		94E4A4C42C84601A00261AD9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940FA0FC2C8352B000C0C8D5 /* SwiftUI.framework */; };
+		94E4A4C72C84601A00261AD9 /* AppWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E4A4C62C84601A00261AD9 /* AppWidgetBundle.swift */; };
+		94E4A4CB2C84601A00261AD9 /* AppWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E4A4CA2C84601A00261AD9 /* AppWidget.swift */; };
+		94E4A4CD2C84601B00261AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E4A4CC2C84601B00261AD9 /* Assets.xcassets */; };
+		94E4A4D12C84601B00261AD9 /* AppWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 94E4A4C22C84601A00261AD9 /* AppWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		94E4A4D62C84637E00261AD9 /* DefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E4A4D52C84637E00261AD9 /* DefaultKeys.swift */; };
+		94E4A4D72C84637E00261AD9 /* DefaultKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E4A4D52C84637E00261AD9 /* DefaultKeys.swift */; };
+		94E4A4D82C84640300261AD9 /* Double+Hours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7EF2C653F80007AABD9 /* Double+Hours.swift */; };
+		94E4A4DA2C84733300261AD9 /* DayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94789F042C67E72F00461918 /* DayData.swift */; };
+		94E4A4DB2C84750A00261AD9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7EB2C6530DD007AABD9 /* Colors.swift */; };
+		94E4A4DC2C8475E600261AD9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E7FB2C654AFE007AABD9 /* Date.swift */; };
+		94E4A4DE2C84B9A900261AD9 /* LegendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E4A4DD2C84B9A900261AD9 /* LegendView.swift */; };
+		94E4A4E02C84D53E00261AD9 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426E8032C6604FD007AABD9 /* UserInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		940FA1302C835FC600C0C8D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9426E7CC2C651592007AABD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940FA1262C835FC500C0C8D5;
+			remoteInfo = ComplicationsExtension;
+		};
+		94CFF6BB2C80E5EC00D8C2F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9426E7CC2C651592007AABD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94CFF6AF2C80E5EB00D8C2F7;
+			remoteInfo = "watchkitapp Watch App";
+		};
+		94E4A4CF2C84601B00261AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9426E7CC2C651592007AABD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94E4A4C12C84601A00261AD9;
+			remoteInfo = AppWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		940FA10A2C8352B200C0C8D5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				940FA1322C835FC600C0C8D5 /* ComplicationsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940FA1222C83544600C0C8D5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				94E4A4D12C84601B00261AD9 /* AppWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CFF6C12C80E5EC00D8C2F7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				94CFF6BD2C80E5EC00D8C2F7 /* Sunflower.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		940FA0DF2C83312600C0C8D5 /* WatchToAppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchToAppManager.swift; sourceTree = "<group>"; };
+		940FA0FA2C8352B000C0C8D5 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		940FA0FC2C8352B000C0C8D5 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		940FA1272C835FC500C0C8D5 /* ComplicationsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ComplicationsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		940FA12B2C835FC500C0C8D5 /* Complications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Complications.swift; sourceTree = "<group>"; };
+		940FA12D2C835FC600C0C8D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		940FA12F2C835FC600C0C8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940FA1362C8360D800C0C8D5 /* WatchDefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchDefaultKeys.swift; sourceTree = "<group>"; };
+		94107ADD2C6BAC1B007C6FF3 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		94107ADF2C6BBAE2007C6FF3 /* SunGoalPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunGoalPicker.swift; sourceTree = "<group>"; };
+		941A90B22C84EDA800C521D2 /* ProType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProType.swift; sourceTree = "<group>"; };
+		9424D1762C88C0E90051DC3B /* LoadingAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LoadingAnimation.json; sourceTree = "<group>"; };
+		9426E7D42C651592007AABD9 /* Sunflower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunflower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9426E7D72C651592007AABD9 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		9426E7D92C651592007AABD9 /* SunflowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunflowerView.swift; sourceTree = "<group>"; };
+		9426E7DB2C651594007AABD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9426E7DE2C651594007AABD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9426E7EB2C6530DD007AABD9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		9426E7ED2C6537A6007AABD9 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		9426E7EF2C653F80007AABD9 /* Double+Hours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Hours.swift"; sourceTree = "<group>"; };
+		9426E7F12C654162007AABD9 /* Double+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Formatting.swift"; sourceTree = "<group>"; };
+		9426E7F62C65490C007AABD9 /* HealthStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStoreManager.swift; sourceTree = "<group>"; };
+		9426E7F82C654A39007AABD9 /* SunWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunWorker.swift; sourceTree = "<group>"; };
+		9426E7FB2C654AFE007AABD9 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		9426E7FD2C654E70007AABD9 /* Sunflower.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sunflower.entitlements; sourceTree = "<group>"; };
+		9426E7FE2C654F17007AABD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9426E7FF2C6553E7007AABD9 /* SunProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunProgressView.swift; sourceTree = "<group>"; };
+		9426E8012C655D5A007AABD9 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		9426E8032C6604FD007AABD9 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		944387F62C8B3B670004A82D /* SunflowerMain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SunflowerMain.json; sourceTree = "<group>"; };
+		944387FA2C8B525C0004A82D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		94789F042C67E72F00461918 /* DayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayData.swift; sourceTree = "<group>"; };
+		94789F072C67E98400461918 /* FetchTodayDataWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTodayDataWrapper.swift; sourceTree = "<group>"; };
+		94789F092C67ECB000461918 /* confetiAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = confetiAnimation.json; sourceTree = "<group>"; };
+		94789F102C68D85B00461918 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		94789F122C68DA6D00461918 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		94789F142C68DB1600461918 /* StreakModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakModal.swift; sourceTree = "<group>"; };
+		94789F1A2C68DD2B00461918 /* fireBurning.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fireBurning.json; sourceTree = "<group>"; };
+		94789F1C2C68ED7900461918 /* BackgroundNotificationsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundNotificationsWorker.swift; sourceTree = "<group>"; };
+		94789F1E2C69151B00461918 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		94789F202C69323C00461918 /* SunflowersField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunflowersField.swift; sourceTree = "<group>"; };
+		94917EDD2C661B9800C057BF /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		94C1C0D22C6E510B00FBA785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94C1C0D42C6E513700FBA785 /* SubscriptionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsManager.swift; sourceTree = "<group>"; };
+		94C1C0D62C6E539900FBA785 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		94C7BF452C6A657700B3952D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		94CFF69A2C80B7BB00D8C2F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		94CFF6A42C80BDA200D8C2F7 /* FeedbackSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackSheet.swift; sourceTree = "<group>"; };
+		94CFF6A62C80BDF900D8C2F7 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		94CFF6A82C80C37A00D8C2F7 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		94CFF6AA2C80C76700D8C2F7 /* RateAppSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateAppSheet.swift; sourceTree = "<group>"; };
+		94CFF6B02C80E5EB00D8C2F7 /* Sunflower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunflower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CFF6B22C80E5EB00D8C2F7 /* watchkitappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchkitappApp.swift; sourceTree = "<group>"; };
+		94CFF6B42C80E5EB00D8C2F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		94CFF6B62C80E5EC00D8C2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94CFF6B92C80E5EC00D8C2F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94CFF6C22C80E94100D8C2F7 /* WatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchManager.swift; sourceTree = "<group>"; };
+		94CFF6C62C80EDE200D8C2F7 /* SleepWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepWorker.swift; sourceTree = "<group>"; };
+		94CFF6CA2C80EED300D8C2F7 /* watchkitapp Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "watchkitapp Watch App.entitlements"; sourceTree = "<group>"; };
+		94CFF6CB2C80EEDC00D8C2F7 /* watchkitapp-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "watchkitapp-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		94D6BEAA2C6FB0B90068DD85 /* StoreKit.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoreKit.storekit; sourceTree = "<group>"; };
+		94E4A4A02C8367AE00261AD9 /* ComplicationsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ComplicationsExtension.entitlements; sourceTree = "<group>"; };
+		94E4A4A32C8370A500261AD9 /* WatchBackgroundNotificationsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBackgroundNotificationsWorker.swift; sourceTree = "<group>"; };
+		94E4A4C22C84601A00261AD9 /* AppWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AppWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E4A4C62C84601A00261AD9 /* AppWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWidgetBundle.swift; sourceTree = "<group>"; };
+		94E4A4CA2C84601A00261AD9 /* AppWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWidget.swift; sourceTree = "<group>"; };
+		94E4A4CC2C84601B00261AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94E4A4CE2C84601B00261AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E4A4D52C84637E00261AD9 /* DefaultKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultKeys.swift; sourceTree = "<group>"; };
+		94E4A4D92C84668800261AD9 /* AppWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppWidgetExtension.entitlements; sourceTree = "<group>"; };
+		94E4A4DD2C84B9A900261AD9 /* LegendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		940FA1242C835FC500C0C8D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940FA1292C835FC500C0C8D5 /* SwiftUI.framework in Frameworks */,
+				940FA1282C835FC500C0C8D5 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9426E7D12C651592007AABD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C1C0CF2C6E50CE00FBA785 /* RevenueCat in Frameworks */,
+				9426E7E72C65160F007AABD9 /* Lottie in Frameworks */,
+				946B748F2C9B19E400632CFC /* FacebookCore in Frameworks */,
+				94CFF6A02C80B81400D8C2F7 /* FirebaseCrashlytics in Frameworks */,
+				94CFF69E2C80B81400D8C2F7 /* FirebaseAnalytics in Frameworks */,
+				94C1C0D12C6E50CE00FBA785 /* RevenueCatUI in Frameworks */,
+				94CFF6A22C80B81400D8C2F7 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CFF6AD2C80E5EB00D8C2F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E4A4BF2C84601A00261AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E4A4C42C84601A00261AD9 /* SwiftUI.framework in Frameworks */,
+				94E4A4C32C84601A00261AD9 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		940FA0F92C8352B000C0C8D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				940FA0FA2C8352B000C0C8D5 /* WidgetKit.framework */,
+				940FA0FC2C8352B000C0C8D5 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		940FA12A2C835FC500C0C8D5 /* Complications */ = {
+			isa = PBXGroup;
+			children = (
+				940FA12B2C835FC500C0C8D5 /* Complications.swift */,
+				940FA12D2C835FC600C0C8D5 /* Assets.xcassets */,
+				940FA12F2C835FC600C0C8D5 /* Info.plist */,
+			);
+			path = Complications;
+			sourceTree = "<group>";
+		};
+		9426E7CB2C651592007AABD9 = {
+			isa = PBXGroup;
+			children = (
+				94E4A4D92C84668800261AD9 /* AppWidgetExtension.entitlements */,
+				94E4A4A02C8367AE00261AD9 /* ComplicationsExtension.entitlements */,
+				94D6BEAA2C6FB0B90068DD85 /* StoreKit.storekit */,
+				9426E7D62C651592007AABD9 /* Sunflower */,
+				94CFF6B12C80E5EB00D8C2F7 /* watchkitapp Watch App */,
+				940FA12A2C835FC500C0C8D5 /* Complications */,
+				94E4A4C52C84601A00261AD9 /* AppWidget */,
+				940FA0F92C8352B000C0C8D5 /* Frameworks */,
+				9426E7D52C651592007AABD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9426E7D52C651592007AABD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9426E7D42C651592007AABD9 /* Sunflower.app */,
+				94CFF6B02C80E5EB00D8C2F7 /* Sunflower.app */,
+				940FA1272C835FC500C0C8D5 /* ComplicationsExtension.appex */,
+				94E4A4C22C84601A00261AD9 /* AppWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9426E7D62C651592007AABD9 /* Sunflower */ = {
+			isa = PBXGroup;
+			children = (
+				94C1C0D42C6E513700FBA785 /* SubscriptionsManager.swift */,
+				94C1C0D22C6E510B00FBA785 /* AppDelegate.swift */,
+				9426E7D72C651592007AABD9 /* App.swift */,
+				94789F0F2C68D84400461918 /* Reusable */,
+				94789F062C67E97400461918 /* PropertyWrappers */,
+				94789F032C67E72600461918 /* Models */,
+				9426E8032C6604FD007AABD9 /* UserInfo.swift */,
+				9426E7EB2C6530DD007AABD9 /* Colors.swift */,
+				94917EDB2C661B7500C057BF /* Views */,
+				9426E7F52C654903007AABD9 /* Workers */,
+				9426E7FA2C654AE5007AABD9 /* Extensions */,
+				9426E7FE2C654F17007AABD9 /* Info.plist */,
+				94CFF69A2C80B7BB00D8C2F7 /* GoogleService-Info.plist */,
+				9426E7FD2C654E70007AABD9 /* Sunflower.entitlements */,
+				9426E7DB2C651594007AABD9 /* Assets.xcassets */,
+				9426E7E82C6516A6007AABD9 /* Animations */,
+				9426E7DD2C651594007AABD9 /* Preview Content */,
+				94E4A4D52C84637E00261AD9 /* DefaultKeys.swift */,
+				944387FA2C8B525C0004A82D /* Launch Screen.storyboard */,
+			);
+			path = Sunflower;
+			sourceTree = "<group>";
+		};
+		9426E7DD2C651594007AABD9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9426E7DE2C651594007AABD9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9426E7E82C6516A6007AABD9 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				94789F1A2C68DD2B00461918 /* fireBurning.json */,
+				944387F62C8B3B670004A82D /* SunflowerMain.json */,
+				9424D1762C88C0E90051DC3B /* LoadingAnimation.json */,
+				94789F092C67ECB000461918 /* confetiAnimation.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		9426E7F52C654903007AABD9 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				9426E7F62C65490C007AABD9 /* HealthStoreManager.swift */,
+				9426E7F82C654A39007AABD9 /* SunWorker.swift */,
+				94789F1C2C68ED7900461918 /* BackgroundNotificationsWorker.swift */,
+				94CFF6A62C80BDF900D8C2F7 /* Logger.swift */,
+				94CFF6C22C80E94100D8C2F7 /* WatchManager.swift */,
+				94CFF6C62C80EDE200D8C2F7 /* SleepWorker.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		9426E7FA2C654AE5007AABD9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9426E7EF2C653F80007AABD9 /* Double+Hours.swift */,
+				9426E7F12C654162007AABD9 /* Double+Formatting.swift */,
+				9426E7FB2C654AFE007AABD9 /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		94789F032C67E72600461918 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94789F042C67E72F00461918 /* DayData.swift */,
+				941A90B22C84EDA800C521D2 /* ProType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94789F062C67E97400461918 /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				94789F072C67E98400461918 /* FetchTodayDataWrapper.swift */,
+			);
+			path = PropertyWrappers;
+			sourceTree = "<group>";
+		};
+		94789F0F2C68D84400461918 /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				94789F102C68D85B00461918 /* PrimaryButtonStyle.swift */,
+				94789F122C68DA6D00461918 /* Modal.swift */,
+				94107ADD2C6BAC1B007C6FF3 /* Loader.swift */,
+				94107ADF2C6BBAE2007C6FF3 /* SunGoalPicker.swift */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
+		94917EDB2C661B7500C057BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94C7BF442C6A654C00B3952D /* Onboarding */,
+				94917EDC2C661B8300C057BF /* CalendarView */,
+				9426E7FF2C6553E7007AABD9 /* SunProgressView.swift */,
+				9426E7ED2C6537A6007AABD9 /* TabView.swift */,
+				9426E7D92C651592007AABD9 /* SunflowerView.swift */,
+				94789F142C68DB1600461918 /* StreakModal.swift */,
+				94789F1E2C69151B00461918 /* SettingsView.swift */,
+				94789F202C69323C00461918 /* SunflowersField.swift */,
+				94C1C0D62C6E539900FBA785 /* SubscriptionView.swift */,
+				94CFF6A42C80BDA200D8C2F7 /* FeedbackSheet.swift */,
+				94CFF6A82C80C37A00D8C2F7 /* WebView.swift */,
+				94CFF6AA2C80C76700D8C2F7 /* RateAppSheet.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94917EDC2C661B8300C057BF /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				9426E8012C655D5A007AABD9 /* CalendarView.swift */,
+				94917EDD2C661B9800C057BF /* DayView.swift */,
+				94E4A4DD2C84B9A900261AD9 /* LegendView.swift */,
+			);
+			path = CalendarView;
+			sourceTree = "<group>";
+		};
+		94C7BF442C6A654C00B3952D /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				94C7BF452C6A657700B3952D /* SwiftUIView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		94CFF6B12C80E5EB00D8C2F7 /* watchkitapp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				94CFF6CB2C80EEDC00D8C2F7 /* watchkitapp-Watch-App-Info.plist */,
+				94CFF6CA2C80EED300D8C2F7 /* watchkitapp Watch App.entitlements */,
+				94E4A4A32C8370A500261AD9 /* WatchBackgroundNotificationsWorker.swift */,
+				94CFF6B22C80E5EB00D8C2F7 /* watchkitappApp.swift */,
+				94CFF6B42C80E5EB00D8C2F7 /* ContentView.swift */,
+				94CFF6B62C80E5EC00D8C2F7 /* Assets.xcassets */,
+				94CFF6B82C80E5EC00D8C2F7 /* Preview Content */,
+				940FA0DF2C83312600C0C8D5 /* WatchToAppManager.swift */,
+				940FA1362C8360D800C0C8D5 /* WatchDefaultKeys.swift */,
+			);
+			path = "watchkitapp Watch App";
+			sourceTree = "<group>";
+		};
+		94CFF6B82C80E5EC00D8C2F7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				94CFF6B92C80E5EC00D8C2F7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94E4A4C52C84601A00261AD9 /* AppWidget */ = {
+			isa = PBXGroup;
+			children = (
+				94E4A4C62C84601A00261AD9 /* AppWidgetBundle.swift */,
+				94E4A4CA2C84601A00261AD9 /* AppWidget.swift */,
+				94E4A4CC2C84601B00261AD9 /* Assets.xcassets */,
+				94E4A4CE2C84601B00261AD9 /* Info.plist */,
+			);
+			path = AppWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		940FA1262C835FC500C0C8D5 /* ComplicationsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940FA1332C835FC700C0C8D5 /* Build configuration list for PBXNativeTarget "ComplicationsExtension" */;
+			buildPhases = (
+				940FA1232C835FC500C0C8D5 /* Sources */,
+				940FA1242C835FC500C0C8D5 /* Frameworks */,
+				940FA1252C835FC500C0C8D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComplicationsExtension;
+			productName = ComplicationsExtension;
+			productReference = 940FA1272C835FC500C0C8D5 /* ComplicationsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9426E7D32C651592007AABD9 /* Sunflower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9426E7E22C651594007AABD9 /* Build configuration list for PBXNativeTarget "Sunflower" */;
+			buildPhases = (
+				9426E7D02C651592007AABD9 /* Sources */,
+				9426E7D12C651592007AABD9 /* Frameworks */,
+				9426E7D22C651592007AABD9 /* Resources */,
+				94CFF6C12C80E5EC00D8C2F7 /* Embed Watch Content */,
+				940FA1222C83544600C0C8D5 /* Embed Foundation Extensions */,
+				94CFF6A32C80B92600D8C2F7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94CFF6BC2C80E5EC00D8C2F7 /* PBXTargetDependency */,
+				94E4A4D02C84601B00261AD9 /* PBXTargetDependency */,
+			);
+			name = Sunflower;
+			packageProductDependencies = (
+				9426E7E62C65160F007AABD9 /* Lottie */,
+				94C1C0CE2C6E50CE00FBA785 /* RevenueCat */,
+				94C1C0D02C6E50CE00FBA785 /* RevenueCatUI */,
+				94CFF69D2C80B81400D8C2F7 /* FirebaseAnalytics */,
+				94CFF69F2C80B81400D8C2F7 /* FirebaseCrashlytics */,
+				94CFF6A12C80B81400D8C2F7 /* FirebaseFirestore */,
+				946B748E2C9B19E400632CFC /* FacebookCore */,
+			);
+			productName = Sunflower;
+			productReference = 9426E7D42C651592007AABD9 /* Sunflower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94CFF6AF2C80E5EB00D8C2F7 /* watchkitapp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CFF6BE2C80E5EC00D8C2F7 /* Build configuration list for PBXNativeTarget "watchkitapp Watch App" */;
+			buildPhases = (
+				94CFF6AC2C80E5EB00D8C2F7 /* Sources */,
+				94CFF6AD2C80E5EB00D8C2F7 /* Frameworks */,
+				94CFF6AE2C80E5EB00D8C2F7 /* Resources */,
+				940FA10A2C8352B200C0C8D5 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				940FA1312C835FC600C0C8D5 /* PBXTargetDependency */,
+			);
+			name = "watchkitapp Watch App";
+			productName = "watchkitapp Watch App";
+			productReference = 94CFF6B02C80E5EB00D8C2F7 /* Sunflower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94E4A4C12C84601A00261AD9 /* AppWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E4A4D22C84601B00261AD9 /* Build configuration list for PBXNativeTarget "AppWidgetExtension" */;
+			buildPhases = (
+				94E4A4BE2C84601A00261AD9 /* Sources */,
+				94E4A4BF2C84601A00261AD9 /* Frameworks */,
+				94E4A4C02C84601A00261AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppWidgetExtension;
+			productName = AppWidgetExtension;
+			productReference = 94E4A4C22C84601A00261AD9 /* AppWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9426E7CC2C651592007AABD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					940FA1262C835FC500C0C8D5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					9426E7D32C651592007AABD9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					94CFF6AF2C80E5EB00D8C2F7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					94E4A4C12C84601A00261AD9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 9426E7CF2C651592007AABD9 /* Build configuration list for PBXProject "Sunflower" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9426E7CB2C651592007AABD9;
+			packageReferences = (
+				9426E7E52C65160F007AABD9 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				94C1C0CD2C6E50CE00FBA785 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+				94CFF69C2C80B81400D8C2F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				946B748D2C9B19E300632CFC /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
+			productRefGroup = 9426E7D52C651592007AABD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9426E7D32C651592007AABD9 /* Sunflower */,
+				94CFF6AF2C80E5EB00D8C2F7 /* watchkitapp Watch App */,
+				940FA1262C835FC500C0C8D5 /* ComplicationsExtension */,
+				94E4A4C12C84601A00261AD9 /* AppWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		940FA1252C835FC500C0C8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940FA12E2C835FC600C0C8D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9426E7D22C651592007AABD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944387F72C8B3B670004A82D /* SunflowerMain.json in Resources */,
+				9426E7DF2C651594007AABD9 /* Preview Assets.xcassets in Resources */,
+				94CFF69B2C80B7BB00D8C2F7 /* GoogleService-Info.plist in Resources */,
+				944387FB2C8B525C0004A82D /* Launch Screen.storyboard in Resources */,
+				94D6BEAB2C6FB0BD0068DD85 /* StoreKit.storekit in Resources */,
+				94789F1B2C68DD2B00461918 /* fireBurning.json in Resources */,
+				94789F0A2C67ECB000461918 /* confetiAnimation.json in Resources */,
+				9426E7DC2C651594007AABD9 /* Assets.xcassets in Resources */,
+				9424D1772C88C0E90051DC3B /* LoadingAnimation.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CFF6AE2C80E5EB00D8C2F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CFF6BA2C80E5EC00D8C2F7 /* Preview Assets.xcassets in Resources */,
+				94CFF6B72C80E5EC00D8C2F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E4A4C02C84601A00261AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E4A4CD2C84601B00261AD9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94CFF6A32C80B92600D8C2F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${PRODUCT_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		940FA1232C835FC500C0C8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940FA12C2C835FC500C0C8D5 /* Complications.swift in Sources */,
+				94E4A4A22C836CCD00261AD9 /* Colors.swift in Sources */,
+				940FA1392C83622400C0C8D5 /* Double+Hours.swift in Sources */,
+				940FA1382C8360D800C0C8D5 /* WatchDefaultKeys.swift in Sources */,
+				941A90B42C84EDA800C521D2 /* ProType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9426E7D02C651592007AABD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CFF6A52C80BDA200D8C2F7 /* FeedbackSheet.swift in Sources */,
+				94C1C0D52C6E513700FBA785 /* SubscriptionsManager.swift in Sources */,
+				9426E7DA2C651592007AABD9 /* SunflowerView.swift in Sources */,
+				94789F152C68DB1600461918 /* StreakModal.swift in Sources */,
+				94C7BF462C6A657700B3952D /* SwiftUIView.swift in Sources */,
+				94E4A4D62C84637E00261AD9 /* DefaultKeys.swift in Sources */,
+				94CFF6C72C80EDE200D8C2F7 /* SleepWorker.swift in Sources */,
+				94CFF6A72C80BDF900D8C2F7 /* Logger.swift in Sources */,
+				94107ADE2C6BAC1B007C6FF3 /* Loader.swift in Sources */,
+				9426E7F72C65490C007AABD9 /* HealthStoreManager.swift in Sources */,
+				94789F1D2C68ED7900461918 /* BackgroundNotificationsWorker.swift in Sources */,
+				94917EDE2C661B9800C057BF /* DayView.swift in Sources */,
+				94789F1F2C69151B00461918 /* SettingsView.swift in Sources */,
+				9426E7F92C654A39007AABD9 /* SunWorker.swift in Sources */,
+				94789F112C68D85B00461918 /* PrimaryButtonStyle.swift in Sources */,
+				941A90B32C84EDA800C521D2 /* ProType.swift in Sources */,
+				9426E7F02C653F80007AABD9 /* Double+Hours.swift in Sources */,
+				9426E8042C6604FD007AABD9 /* UserInfo.swift in Sources */,
+				9426E8002C6553E7007AABD9 /* SunProgressView.swift in Sources */,
+				94CFF6AB2C80C76700D8C2F7 /* RateAppSheet.swift in Sources */,
+				94C1C0D32C6E510B00FBA785 /* AppDelegate.swift in Sources */,
+				94107AE02C6BBAE2007C6FF3 /* SunGoalPicker.swift in Sources */,
+				94789F082C67E98400461918 /* FetchTodayDataWrapper.swift in Sources */,
+				94789F132C68DA6D00461918 /* Modal.swift in Sources */,
+				9426E7EC2C6530DD007AABD9 /* Colors.swift in Sources */,
+				94CFF6A92C80C37A00D8C2F7 /* WebView.swift in Sources */,
+				94789F052C67E72F00461918 /* DayData.swift in Sources */,
+				94789F212C69323C00461918 /* SunflowersField.swift in Sources */,
+				9426E8022C655D5A007AABD9 /* CalendarView.swift in Sources */,
+				9426E7F22C654162007AABD9 /* Double+Formatting.swift in Sources */,
+				9426E7EE2C6537A6007AABD9 /* TabView.swift in Sources */,
+				94C1C0D72C6E539900FBA785 /* SubscriptionView.swift in Sources */,
+				9426E7FC2C654AFE007AABD9 /* Date.swift in Sources */,
+				9426E7D82C651592007AABD9 /* App.swift in Sources */,
+				94E4A4DE2C84B9A900261AD9 /* LegendView.swift in Sources */,
+				94CFF6C32C80E94100D8C2F7 /* WatchManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CFF6AC2C80E5EB00D8C2F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CFF6C92C80EE0E00D8C2F7 /* HealthStoreManager.swift in Sources */,
+				94E4A4A12C836CCD00261AD9 /* Colors.swift in Sources */,
+				940FA1372C8360D800C0C8D5 /* WatchDefaultKeys.swift in Sources */,
+				94CFF6B52C80E5EB00D8C2F7 /* ContentView.swift in Sources */,
+				94E4A4A42C8370A500261AD9 /* WatchBackgroundNotificationsWorker.swift in Sources */,
+				94CFF6B32C80E5EB00D8C2F7 /* watchkitappApp.swift in Sources */,
+				940FA0E02C83312600C0C8D5 /* WatchToAppManager.swift in Sources */,
+				94CFF6C82C80EDF800D8C2F7 /* SunWorker.swift in Sources */,
+				94CFF6CC2C80EF4100D8C2F7 /* Double+Hours.swift in Sources */,
+				94CFF6C52C80EB0200D8C2F7 /* Date.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E4A4BE2C84601A00261AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E4A4D82C84640300261AD9 /* Double+Hours.swift in Sources */,
+				94E4A4DB2C84750A00261AD9 /* Colors.swift in Sources */,
+				94E4A4DC2C8475E600261AD9 /* Date.swift in Sources */,
+				94E4A4DA2C84733300261AD9 /* DayData.swift in Sources */,
+				94E4A4D72C84637E00261AD9 /* DefaultKeys.swift in Sources */,
+				94E4A4CB2C84601A00261AD9 /* AppWidget.swift in Sources */,
+				94E4A4C72C84601A00261AD9 /* AppWidgetBundle.swift in Sources */,
+				94E4A4E02C84D53E00261AD9 /* UserInfo.swift in Sources */,
+				941A90B52C84EDA800C521D2 /* ProType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		940FA1312C835FC600C0C8D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940FA1262C835FC500C0C8D5 /* ComplicationsExtension */;
+			targetProxy = 940FA1302C835FC600C0C8D5 /* PBXContainerItemProxy */;
+		};
+		94CFF6BC2C80E5EC00D8C2F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94CFF6AF2C80E5EB00D8C2F7 /* watchkitapp Watch App */;
+			targetProxy = 94CFF6BB2C80E5EC00D8C2F7 /* PBXContainerItemProxy */;
+		};
+		94E4A4D02C84601B00261AD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94E4A4C12C84601A00261AD9 /* AppWidgetExtension */;
+			targetProxy = 94E4A4CF2C84601B00261AD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		940FA1342C835FC700C0C8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ComplicationsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 25K52YY533;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Complications/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Complications;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-sunflower.watchkitapp.Complications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		940FA1352C835FC700C0C8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ComplicationsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25K52YY533;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Complications/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Complications;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-sunflower.watchkitapp.Complications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		9426E7E02C651594007AABD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9426E7E12C651594007AABD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9426E7E32C651594007AABD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sunflower/Sunflower.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sunflower/Preview Content\"";
+				DEVELOPMENT_TEAM = 25K52YY533;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sunflower/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Sunflower app uses Apple health stored data to calculate and show your body metrics. It is calculated localy on iPhone and no data is stored";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Sunflower app uses Apple health stored data to calculate and show your body metrics. It is calculated localy on iPhone and no data is stored";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-sunflower";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9426E7E42C651594007AABD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sunflower/Sunflower.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sunflower/Preview Content\"";
+				DEVELOPMENT_TEAM = 25K52YY533;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sunflower/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Sunflower app uses Apple health stored data to calculate and show your body metrics. It is calculated localy on iPhone and no data is stored";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Sunflower app uses Apple health stored data to calculate and show your body metrics. It is calculated localy on iPhone and no data is stored";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-sunflower";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		94CFF6BF2C80E5EC00D8C2F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "watchkitapp Watch App/watchkitapp Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"watchkitapp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 25K52YY533;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "watchkitapp-Watch-App-Info.plist";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Sunflower app uses Apple health stored data to calculate and show your body metrics. It is calculated localy on iPhone and no data is stored";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Sunflower app uses Apple health stored data to calculate and show your body metrics. It is calculated localy on iPhone and no data is stored";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.app-sunflower";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-sunflower.watchkitapp";
+				PRODUCT_NAME = Sunflower;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		94CFF6C02C80E5EC00D8C2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "watchkitapp Watch App/watchkitapp Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchkitapp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 25K52YY533;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "watchkitapp-Watch-App-Info.plist";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Sunflower app uses Apple health stored data to calculate and show your body metrics. It is calculated localy on iPhone and no data is stored";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Sunflower app uses Apple health stored data to calculate and show your body metrics. It is calculated localy on iPhone and no data is stored";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.app-sunflower";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-sunflower.watchkitapp";
+				PRODUCT_NAME = Sunflower;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		94E4A4D32C84601B00261AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = AppWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 25K52YY533;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AppWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-sunflower.AppWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94E4A4D42C84601B00261AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = AppWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25K52YY533;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AppWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app-sunflower.AppWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		940FA1332C835FC700C0C8D5 /* Build configuration list for PBXNativeTarget "ComplicationsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940FA1342C835FC700C0C8D5 /* Debug */,
+				940FA1352C835FC700C0C8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9426E7CF2C651592007AABD9 /* Build configuration list for PBXProject "Sunflower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9426E7E02C651594007AABD9 /* Debug */,
+				9426E7E12C651594007AABD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9426E7E22C651594007AABD9 /* Build configuration list for PBXNativeTarget "Sunflower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9426E7E32C651594007AABD9 /* Debug */,
+				9426E7E42C651594007AABD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94CFF6BE2C80E5EC00D8C2F7 /* Build configuration list for PBXNativeTarget "watchkitapp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CFF6BF2C80E5EC00D8C2F7 /* Debug */,
+				94CFF6C02C80E5EC00D8C2F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E4A4D22C84601B00261AD9 /* Build configuration list for PBXNativeTarget "AppWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E4A4D32C84601B00261AD9 /* Debug */,
+				94E4A4D42C84601B00261AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9426E7E52C65160F007AABD9 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+		946B748D2C9B19E300632CFC /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 17.0.0;
+			};
+		};
+		94C1C0CD2C6E50CE00FBA785 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.3;
+			};
+		};
+		94CFF69C2C80B81400D8C2F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9426E7E62C65160F007AABD9 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9426E7E52C65160F007AABD9 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		946B748E2C9B19E400632CFC /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 946B748D2C9B19E300632CFC /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		94C1C0CE2C6E50CE00FBA785 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94C1C0CD2C6E50CE00FBA785 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+		94C1C0D02C6E50CE00FBA785 /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94C1C0CD2C6E50CE00FBA785 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCatUI;
+		};
+		94CFF69D2C80B81400D8C2F7 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94CFF69C2C80B81400D8C2F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		94CFF69F2C80B81400D8C2F7 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94CFF69C2C80B81400D8C2F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		94CFF6A12C80B81400D8C2F7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94CFF69C2C80B81400D8C2F7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9426E7CC2C651592007AABD9 /* Project object */;
+}
